@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="keywords" content="AI, Science, AI4Science, machine learning, PDEs">
+  <link rel="shortcut icon" href="./img/AI4Science.png">
+
+  <title>AI4Science Beijing Meetup: Learned Partial Differential Equations (PDEs)</title>
+  <meta name="description" content="AI4Science Beijing Meetup 2025">
+  <meta property="og:title" content="AI4Science Beijing Meetup: Learned Partial Differential Equations (PDEs)"/>
+  <meta property="og:description" content="AI4Science Beijing Meetup 2025"/>
+  <meta property="og:site_name" content="AI4Science Beijing Meetup: Learned Partial Differential Equations (PDEs)"/>
+
+  <!--Twitter Card Stuff-->
+  <meta name="twitter:title" content="AI4Science BeijingMeetup: Learned Partial Differential Equations (PDEs)"/>
+  <meta name="twitter:description" content="AI4Science Beijing Meetup 2025"/>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css?1" media="screen,projection">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ff6e9b10da.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+  <!-- <div class="top-strip"></div> -->
+  <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <p><br /></p>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/"></a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+  	      <li><a href="#organisers">Organisers</a></li>
+          <li><a href="#Invited">Invited Talks</a></li>
+          <li><a href="#talks">Schedule</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="page-content">
+      <p><br /></p>
+      <div class="row">
+        <div class="col-xs-12">
+          <br>
+          <br>
+          <br>
+          <center><h1><b>AI4Science Beijing Meetup 2025</h2></center>
+          <center><h1>Learned Partial Differential Equations (PDEs)</h1></center>
+          <center><h2>28th June 2025, Tsinghua University </h2></center>
+          <div style="display: flex; justify-content: space-between; align-items: center; text-align: center;">
+            <img style="width: 960px; margin-left: 0px;" src="./img/AI4Science.png" />
+          </div>
+        </div>
+      </div>
+
+      <br/>
+      <p><br/></p>
+      <br>
+      <h2>Overview</h2>
+      <br/>
+      <p>
+        Partial Differential Equations (PDEs) are fundamental to modelling a wide range of physical, biological, and engineered systems. With recent advances in machine learning, researchers have begun to explore how data-driven methods can learn and approximate PDEs directly from observations, offering new tools for scientific discovery.
+      </p>
+      <p>
+        This meetup will highlight recent developments in the learned PDEs using AI techniques. We will discuss foundational methods such as neural operators and physics-informed neural networks (PINNs), explore applications across disciplines, and examine the open challenges in interpretability, generalization, and scalability. The session aims to provide attendees with both a theoretical understanding and practical insights into this emerging area.
+      </p>
+      <p>
+        After attending this meetup, participants will be able to:<br>
+        ● understand how machine learning can be used to model and solve PDEs<br>
+        ● gain an overview of key methods like PINNs and neural operators<br>
+        ● explore real-world applications in fluid dynamics, materials science, and more<br>
+        ● identify challenges and research opportunities in learned PDEs<br>
+      </p>
+
+  
+    <br id="organisers" /><br/>
+
+
+<div class="row">
+  <div class="col-xs-12">
+    <br>
+    <h2>General Chairs</h2>
+    <br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+  <div class="row">
+    <div class="col-xs-2" id="angelica">
+    </div>
+    <div class="col-xs-4" id="angelica">
+      <center>
+      <a href="https://angelicaiaviles.wordpress.com">
+        <img class="people-pic" src="./img/people/angelica.png" />
+      </a>
+      <div class="people-name">
+        <a href="https://angelicaiaviles.wordpress.com">Angelica I Aviles-Rivero</a>
+        <h6>Tsinghua University</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-4" id="bindong">
+      <center>
+      <a href="http://faculty.bicmr.pku.edu.cn/~dongbin/">
+        <img class="people-pic" src="./img/people/bindong.jpg" />
+      </a>
+      <div class="people-name">
+         <a href="http://faculty.bicmr.pku.edu.cn/~dongbin/">Bin Dong</a>
+        <h6>Peking University</h6>
+      </div>
+      <div class="col-xs-2" id="angelica">
+      </div>
+      </center>
+    </div>
+  </div>
+  </div>
+	<br>
+  <br>
+  <div class="col-xs-12">
+    <br>
+  </div>
+  <br>
+  <br>
+  <h2>Co-Organising Committee</h2>
+  <h3>Alphabetic Order</h3>
+  <br>
+  <div class="col-xs-12">
+  <div class="row">
+    <div class="col-xs-4" id="sam">
+      <center>
+      <a href="https://samcheng123.github.io/Cam/">
+        <img class="people-pic" src="./img/people/sam.jpeg" />
+      </a>
+      <div class="people-name">
+         <a href="https://samcheng123.github.io/Cam/">Chun-Wun Cheng</a>
+        <h6>University of Cambridge</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-4" id="joy">
+      <center>
+      <a href="http://yc443.github.io">
+        <img class="people-pic" src="./img/people/joy.png" />
+      </a>
+      <div class="people-name">
+         <a href="http://yc443.github.io">Yanqi Cheng</a>
+        <h6>University of Cambridge</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-4" id="haixu">
+      <center>
+      <a href="https://wuhaixu2016.github.io">
+        <img class="people-pic" src="./img/people/haixu.jpeg" />
+      </a>
+      <div class="people-name">
+        <a href="https://wuhaixu2016.github.io">Haixu Wu</a>
+        <h6>Tsinghua University</h6>
+      </div>
+      </center>
+    </div>
+    
+  </div>
+  </div>
+  
+
+  </div>
+
+  <br>
+  <div class="col-xs-12">
+  <div class="row">
+  <center>
+    <div class="col-xs-4"><img src="./img/Tsinghua_University.png" style="width:80%"/></div>
+    <div class="col-xs-4"><img src="./img/Peking_University.png" style="width:80%"/></div>
+    <div class="col-xs-4"><img src="./img/University_of_Cambridge.png" style="width:90%" /></div>
+  </center>
+  </div>
+  </div>
+  <br>
+
+
+<br id="Invited" />
+<br>
+<br>
+<br>
+<br>
+<h2>Keynotes</h2>
+<h3>Alphabetic Order</h3>
+<br>
+ <div class="col-xs-12">
+  <div class="row">
+    <div class="col-xs-3" id="Zhengyu">
+      <center>
+      <a href="http://faculty.bicmr.pku.edu.cn/~huangdz/">
+        <img class="people-pic" src="./img/people/zhengyu.jpeg" />
+      </a>
+      <div class="people-name">
+         <a href="http://faculty.bicmr.pku.edu.cn/~huangdz/">Zhengyu Huang</a>
+        <h6>Peking University</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="haosun">
+      <center>
+      <a href="https://gsai.ruc.edu.cn/haosun">
+        <img class="people-pic" src="./img/people/haosun.jpg" />
+      </a>
+      <div class="people-name">
+         <a href="https://gsai.ruc.edu.cn/haosun">Hao Sun</a>
+        <h6>Renmin University of China</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="tbc">
+      <center>
+      <a href="">
+        <img class="people-pic" src="./img/people/Reveal_soon.png" />
+      </a>
+      <div class="people-name">
+        <a href=""><br></a>
+        <h6>Revealing Soon</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="tbc">
+      <center>
+      <a href="">
+        <img class="people-pic" src="./img/people/Reveal_soon.png" />
+      </a>
+      <div class="people-name">
+        <a href=""><br></a>
+        <h6>Revealing Soon</h6>
+      </div>
+      </center>
+    </div>
+  </div>
+  </div>
+  
+<div class="col-xs-12">
+  <br>
+</div>
+<br>
+<br>
+<br>
+
+<h2>Flash Talks</h2>
+<h3>Alphabetic Order</h3>
+<br>
+  <div class="col-xs-12">
+    <div class="col-xs-3" id="sam">
+      <center>
+      <a href="https://samcheng123.github.io/Cam/">
+        <img class="people-pic" src="./img/people/sam.jpeg" />
+      </a>
+      <div class="people-name">
+         <a href="https://samcheng123.github.io/Cam/">Chun-Wun Cheng</a>
+        <h6>University of Cambridge</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="zhongkai">
+      <center>
+      <a href="https://haozhongkai.github.io">
+        <img class="people-pic" src="./img/people/zhongkai.jpg" />
+      </a>
+      <div class="people-name">
+         <a href="https://haozhongkai.github.io">Zhongkai Hao</a>
+        <h6>Tsinghua University</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="Zhuoyuan">
+      <center>
+      <a href="http://zylipku.github.io">
+        <img class="people-pic" src="./img/people/zhuoyuan.jpeg" />
+      </a>
+      <div class="people-name">
+         <a href="http://zylipku.github.io">Zhuoyuan Li</a>
+        <h6>Peking University</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="haixu">
+      <center>
+      <a href="https://wuhaixu2016.github.io">
+        <img class="people-pic" src="./img/people/haixu.jpeg" />
+      </a>
+      <div class="people-name">
+        <a href="https://wuhaixu2016.github.io">Haixu Wu</a>
+        <h6>Tsinghua University</h6>
+      </div>
+      </center>
+    </div>
+  </div>
+  <div class="col-xs-12">
+    <div class="col-xs-3" id="Zhanhong">
+      <center>
+      <a href="https://scholar.google.com/citations?hl=en&user=nx4obKMAAAAJ">
+        <img class="people-pic" src="./img/people/zhanhong.png" />
+      </a>
+      <div class="people-name">
+         <a href="https://scholar.google.com/citations?hl=en&user=nx4obKMAAAAJ">Zhanhong Ye</a>
+        <h6>Peking University</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="tbc">
+      <center>
+      <a href="">
+        <img class="people-pic" src="./img/people/Reveal_soon.png" />
+      </a>
+      <div class="people-name">
+        <a href=""><br></a>
+        <h6>Revealing Soon</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="tbc">
+      <center>
+      <a href="">
+        <img class="people-pic" src="./img/people/Reveal_soon.png" />
+      </a>
+      <div class="people-name">
+        <a href=""><br></a>
+        <h6>Revealing Soon</h6>
+      </div>
+      </center>
+    </div>
+    <div class="col-xs-3" id="tbc">
+      <center>
+      <a href="">
+        <img class="people-pic" src="./img/people/Reveal_soon.png" />
+      </a>
+      <div class="people-name">
+        <a href=""><br></a>
+        <h6>Revealing Soon</h6>
+      </div>
+      </center>
+    </div>
+  </div>
+  </div>
+  
+<div class="col-xs-12">
+  <br>
+</div>
+
+<br id="talks" />
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+  <div class="col-xs-12">
+     <h2>Schedule</h2>
+
+     <h3>Tentative Schedule</h3>
+     <br>
+  <style>
+    table {
+      width: 700px;
+      border-collapse: collapse;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 2px solid #333;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f5f5f5;
+    }
+  </style>
+      <center>
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Session</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>09:00 – 09:15</td><td>Welcome & Opening Remarks</td></tr>
+      <tr><td>09:15 – 10:15</td><td>Invited Talk 1</td></tr>
+      <tr><td>10:15 – 11:15</td><td>Student Talks Slot 1 (3 talks)</td></tr>
+      <tr><td>11:15 – 12:15</td><td>Invited Talk 2</td></tr>
+      <tr><td>12:15 – 12:30</td><td>Group Photo</td></tr>
+      <tr><td>12:30 – 13:30</td><td>Lunch Break</td></tr>
+      <tr><td>13:30 – 14:30</td><td>Student Talks Slot 2 (3 talks)</td></tr>
+      <tr><td>14:30 – 15:30</td><td>Invited Talk 3</td></tr>
+      <tr><td>15:30 – 15:50</td><td>Coffee Break / Networking</td></tr>
+      <tr><td>15:50 – 16:50</td><td>Invited Talk 4</td></tr>
+      <tr><td>16:50 – 17:00</td><td>Closing Remarks</td></tr>
+    </tbody>
+  </table>
+  </center>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<br />
+</div></div>
+
+      </div>
+    </div>
+                <div class="section text-gray" id="footer">
+                <div class="container">
+
+                    <div class="row">
+                       <div class="col-sm-6">
+
+                        </div>
+                        <div class="col-sm-6">
+                            <p><small>&copy; 2025 <a href="http://nvlabs.github.io" class="external">AI4Science Beijing Meetup</a>.
+                            Template by <a href="https://nvlabs.github.io/eccv2020-limited-labels-data-tutorial/" class="external"> Shalini De Mello</a>.</small></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+  </body>
+</html>
